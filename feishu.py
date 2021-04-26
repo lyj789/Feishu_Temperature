@@ -34,6 +34,10 @@ while True:
     var arr4=q13.options;
     var text4=arr4[1].value;
     document.getElementById("q13").value = text4 ;
+    
+    if($(".saveBtn").attr("disabled")!="disabled"&&g_boolPromise)
+      fnSave('submit');
+      
     """
     browser.execute_script(js)
     time.sleep(10)
