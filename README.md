@@ -7,7 +7,7 @@ Automatic upload your temperatures on feishu just for nku students
 #### Chrome
 1. 下载ChromeDriver：http://chromedriver.storage.googleapis.com/index.html （注意下载的driver版本与Chrome浏览器版本的匹配）
 3. 下载后解压到：python文件夹的Scripts目录下
-4. 找到浏览器user_data_dir，替换掉Line11处的地址（chrome://version/， 个人资料路径）
+4. 找到浏览器user_data_dir，替换掉Line12处的地址（chrome://version/， 个人资料路径）
 
 #### FireFox
 1. 下载geckodriver：https://github.com/mozilla/geckodriver/releases （注意下载的driver版本与firefox浏览器版本的匹配）
