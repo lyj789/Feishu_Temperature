@@ -1,6 +1,4 @@
 from selenium import webdriver
-from selenium import webdriver
-import time
 import time
 while True:
   time_now = time.strftime("%H:%M:%S", time.localtime())
