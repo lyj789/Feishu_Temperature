@@ -17,3 +17,8 @@ Automatic upload your temperatures on feishu just for nku students
 首次使用需要先访问https://feishu.nankai.edu.cn/?appid=229 登录一次，之后运行程序就可以实现自动填报了！
 
 程序运行开始，到达规定时间后会自动打开Chrome浏览器，进行填报，注意此时不能有其他Chrome浏览器窗口打开，否则会报错
+
+
+本人不对因为滥用此程序造成的后果负责，请在合理且合法的范围内使用本程序。
+
+本程序仅用于解决忘记填报这一问题，如果填报表中任意情况发生变化，请务必在手动填报。
