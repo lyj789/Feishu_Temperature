@@ -1,6 +1,6 @@
 # Feishu_Temperature
 Automatic upload your temperatures on feishu just for nku students
-每天上午十点定时填报体温
+飞书nk微应用定时填报体温脚本
 
 ### 使用方法
 首先安装selenium： pip install selenium
@@ -15,4 +15,5 @@ Automatic upload your temperatures on feishu just for nku students
 3. 找到浏览器user_data_dir，替换掉Line8处的地址（帮助-更多排障信息-配置文件夹）
 
 首次使用需要先访问https://feishu.nankai.edu.cn/?appid=229 登录一次，之后运行程序就可以实现自动填报了！
+
 （程序运行开始，到达规定时间后会自动打开Chrome浏览器，进行填报，注意此时不能有其他Chrome浏览器窗口打开，否则会报错）
