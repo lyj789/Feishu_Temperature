@@ -8,7 +8,9 @@ while True:
     # browser = webdriver.Firefox(firefox_profile=profile, executable_path=r'D:\GeckoDriver\geckodriver.exe')
 
     option = webdriver.ChromeOptions()
-    option.add_argument(r'user-data-dir=C:\Users\DELL\AppData\Local\Google\Chrome\User Data')
+    # option.add_argument(r'user-data-dir=C:\Users\DELL\AppData\Local\Google\Chrome\User Data')
+    chrome_dir = os.path.join(os.environ['LOCALAPPDATA'],"\\Google\\Chrome\\User Data\\")
+    option.add_argument('user-data-dir=' + chrome_dir)
     browser=webdriver.Chrome(options=option)
     browser.get('https://feishu.nankai.edu.cn/?appid=229')
     time.sleep(10)
